@@ -32,11 +32,11 @@ job "demo-webapp-<YOUR HOSTNAME>" {
       }
 
       service {
-        name = ""
+        name = "demo-webapp"
         port = "http"
 
         tags = [
-          "<YOUR HOSTNAME>-demo-webapp",
+          "<YOUR HOSTNAME>",
           "urlprefix-/",
         ]
 
