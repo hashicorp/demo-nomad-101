@@ -2,6 +2,9 @@
 # in the first line and in the "tags" section.
 # Your hostname can be attained by running the "identity" command on your node.
 
+# Be sure to replace the other fields such as <YOUR CHOICE> in the tags
+# section
+
 job "demo-webapp-<YOUR HOSTNAME>" {
   datacenters = ["dc1"]
 
@@ -37,7 +40,7 @@ job "demo-webapp-<YOUR HOSTNAME>" {
 
         tags = [
           "<YOUR HOSTNAME>",
-          "urlprefix-/",
+          "urlprefix-/<YOUR CHOICE> strip=/<YOURCHOICE>",
         ]
 
         check {
