@@ -35,7 +35,7 @@ job "demo-webapp-<YOUR HOSTNAME>" {
 
         check {
           type     = "http"
-          path     = "/index.html"
+          path     = "/"
           interval = "2s"
           timeout  = "2s"
         }
