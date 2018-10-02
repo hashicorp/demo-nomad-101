@@ -19,8 +19,13 @@ job "demo-webapp-<YOUR HOSTNAME>" {
   group "echo" {
     count = 4
     task "server" {
-      driver = "docker"
 
+      env {
+        PORT    = "${NOMAD_PORT_http}"
+        NODE_IP = "${NOMAD_IP_http}"
+      }
+
+      driver = "docker"
       config {
         image = "hashicorp/demo-webapp:v3"
 	  port_map = {
