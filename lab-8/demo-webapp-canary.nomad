@@ -28,9 +28,6 @@ job "demo-webapp-<YOUR HOSTNAME>" {
       driver = "docker"
       config {
         image = "hashicorp/demo-webapp:v3"
-	  port_map = {
-	    http = 80
-	  }
       }
 
       resources {
