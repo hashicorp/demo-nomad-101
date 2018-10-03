@@ -15,7 +15,7 @@ job "demo-webapp-<YOUR HOSTNAME>" {
     auto_revert      = true
   }
 
-  group "echo" {
+  group "demo" {
     count = 4
     task "server" {
 

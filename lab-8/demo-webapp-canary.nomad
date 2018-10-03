@@ -16,7 +16,7 @@ job "demo-webapp-<YOUR HOSTNAME>" {
     canary           = 1
   }
 
-  group "echo" {
+  group "demo" {
     count = 4
     task "server" {
 

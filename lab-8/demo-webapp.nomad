@@ -8,7 +8,7 @@
 job "demo-webapp-<YOUR HOSTNAME>" {
   datacenters = ["dc1"]
 
-  group "echo" {
+  group "demo" {
     count = 4
     task "server" {
 
