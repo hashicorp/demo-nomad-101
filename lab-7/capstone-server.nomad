@@ -8,10 +8,10 @@
 job "<YOUR HOSTNAME>" {
   datacenters = ["dc1"]
 
-  group "echo" {
+  group "web" {
     count = 1
 
-    task "server" {
+    task "web-server" {
       driver = "docker"
 
       config {
