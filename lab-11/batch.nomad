@@ -1,3 +1,6 @@
+# PLEASE NOTE: If you copy this file, be sure to replace <YOUR HOSTNAME>
+# Your hostname can be attained by running the "identity" command on your node.
+
 job "example-<YOUR HOSTNAME>" {
   datacenters = ["dc1"]
   type = "batch"
