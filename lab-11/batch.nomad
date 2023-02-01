@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # PLEASE NOTE: If you copy this file, be sure to replace <YOUR HOSTNAME>
 # Your hostname can be attained by running the "identity" command on your node.
 
