@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2018, 2026
+
 # PLEASE NOTE: If you copy this file, be sure to replace <YOUR HOSTNAME>
 # in the first line and in the "tags" section.
 # Your hostname can be attained by running the "identity" command on your node.
